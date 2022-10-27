@@ -10,11 +10,11 @@ import ripple from 'static/sounds/ripple.mp3';
 import upstairs from 'static/sounds/upstairs.mp3';
 import teams from 'static/sounds/teams.mp3';
 
-const DEFAULT_WIN7 = 'Ding';
+export const DEFAULT_WIN7 = 'Ding';
 const notificationSounds = new Map([
     [DEFAULT_WIN7, ding],
-    ['Bing', bing],
-    ['Crackle', crackle],
+    ['Bing1', bing],
+    ['test', crackle],
     ['Down', down],
     ['Hello', hello],
     ['Ripple', ripple],
@@ -35,13 +35,3 @@ export const playSound = (soundName: string) => {
     }
 };
 
-export const playSoundLong = (soundName: string) => {
-    if (soundName && canPlaySound) {
-        canPlaySound = false;
-        setTimeout(() => {
-            canPlaySound = true;
-        }, 15000);
-        const audio = new Audio(notificationSounds.get(soundName));
-        audio.play();
-    }
-};
