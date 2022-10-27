@@ -7,8 +7,7 @@ import crackle from 'static/sounds/crackle.mp3';
 import down from 'static/sounds/down.mp3';
 import hello from 'static/sounds/hello.mp3';
 import ripple from 'static/sounds/ripple.mp3';
-import upstairs from 'static/sounds/upstairs.mp3';
-import teams from 'static/sounds/teams.mp3';
+import upstairs from 'static/sounds/teams.mp3';
 
 export const DEFAULT_WIN7 = 'Ding';
 const notificationSounds = new Map([
@@ -19,7 +18,6 @@ const notificationSounds = new Map([
     ['Hello', hello],
     ['Ripple', ripple],
     ['Upstairs', upstairs],
-    ['Teams', teams],
 ]);
 
 let canPlaySound = true;
