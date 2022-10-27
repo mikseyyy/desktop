@@ -10,6 +10,7 @@ import {getDoNotDisturb as getDarwinDoNotDisturb} from 'macos-notification-state
 import {MentionData} from 'types/notification';
 
 import {PLAY_SOUND} from 'common/communication';
+
 import {TAB_MESSAGING} from 'common/tabs/TabView';
 
 import WindowManager from '../windows/windowManager';

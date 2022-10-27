@@ -57,6 +57,7 @@ export const GET_FULL_SCREEN_STATUS = 'get-full-screen-status';
 export const UPDATE_TARGET_URL = 'update_target_url';
 
 export const PLAY_SOUND = 'play_sound';
+export const PLAY_SOUND_LONG = 'play_sound_long';
 
 export const GET_DOWNLOAD_LOCATION = 'get_download_location';
 

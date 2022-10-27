@@ -10,6 +10,7 @@ import {getFocusAssist} from 'windows-focus-assist';
 import {getDoNotDisturb as getDarwinDoNotDisturb} from 'macos-notification-state';
 
 import {PLAY_SOUND} from 'common/communication';
+
 import {TAB_MESSAGING} from 'common/tabs/TabView';
 
 import {localizeMessage} from 'main/i18nManager';
